@@ -1,0 +1,10 @@
+body{
+  background-color: aliceblue;
+  margin-top: 50px;
+}
+.main{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  background-color: aqua;
+}
