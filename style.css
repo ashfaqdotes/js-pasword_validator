@@ -1,10 +1,40 @@
-body{
-  background-color: aliceblue;
-  margin-top: 50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.main{
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.main {
   text-align: center;
-  width: 50%;
+  width: 40%;
   margin: auto;
-  background-color: aqua;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: black 10px 5px 20px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -5px;
+  content: "🟢";
+}
+
+.invalid {
+  color: tomato;
+  text-decoration: line-through;
+}
+
+.invalid:before {
+  position: relative;
+  left: -5px;
+  content: "🔴";
 }
